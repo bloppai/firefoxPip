@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>pip</title>
+	</head>
+	<body>
+		<!-- programming snippets button -->
+		<button>
+			<a href="programmingSnippets/index.html">Programming snippets</a>
+		</button>
+		<br />
+
+		<!-- focus buttons -->
+		<label class="toggle">
+			<input type="checkbox" id="focus" />
+			<span class="labels focus" data-on="FOCUS" data-off="RELAX"></span>
+		</label>
+		<br />
+		<label class="toggle">
+			<input type="checkbox" id="wank" />
+			<span class="labels wank" data-on="WANK" data-off="NO WANK"></span>
+		</label>
+
+		<!-- focus add to list form -->
+		<form id="addSiteForm">
+			<select id="type" name="type">
+				<option value="focusList">focusList:</option>
+				<option value="wankList">wankList</option>
+			</select>
+			<input type="text" id="listAdd" />
+			<input type="submit" value="submit" id="submit" />
+		</form>
+
+		<!-- productive -->
+		<button id="productive">get productive</button>
+		<br />
+
+		<!-- wallpaper -->
+		<button id="addWallpaper">add wallpaper</button>
+		<button id="getWallpaper">get wallpaper</button>
+
+		<!-- external scripts -->
+		<script src="productive/index.js"></script>
+		<script src="blacklist/modeChange.js"></script>
+		<script src="blacklist/addSites.js"></script>
+		<script src="index.js"></script>
+	</body>
+</html>
