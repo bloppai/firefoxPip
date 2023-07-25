@@ -1,1 +1,1 @@
-Very epic plugin for firefox, かっこいい <br />
+Very epic plugin for firefox <br />
