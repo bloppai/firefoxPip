@@ -6,4 +6,4 @@ Features:
 3. Has a productivity mode which opens chosen links at chosen intervals to kinda force you into being productive
 4. Also has a focus mode that allows you to blocklist any websites, not allowing you to visit them while focus mode is active
  
-https://addons.mozilla.org/en-US/firefox/addon/pip7747/
+Published at: https://addons.mozilla.org/en-US/firefox/addon/pip7747/
